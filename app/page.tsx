@@ -19,7 +19,7 @@ export default function Home() {
             <span className="text-primary">Ghana</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-md leading-relaxed">
-            Connecting clients with prime real estate opportunities and providing top-tier architectural and
+            Connecting clients with affordable real estate opportunities and providing top-tier architectural and
             construction services across West Africa.
           </p>
           <div className="flex flex-wrap gap-4">
@@ -35,7 +35,7 @@ export default function Home() {
         <div className="relative aspect-4/5 overflow-hidden group animate-in fade-in zoom-in duration-1000 delay-300">
           <Image
             src="/modern-villa-ghana.jpg"
-            alt="Luxury Architecture in Ghana"
+            alt="Affordable Architecture in Ghana"
             fill
             className="object-cover transition-transform duration-700 group-hover:scale-105"
             priority
@@ -63,13 +63,13 @@ export default function Home() {
             <ServiceCard
               icon={<Landmark className="text-primary" />}
               title="Land for Sale"
-              description="Prime land parcels in sought-after locations, ideal for development or investment."
+              description="Affordable land parcels in sought-after locations, ideal for development or investment."
               href="#land"
             />
             <ServiceCard
               icon={<Building2 className="text-primary" />}
               title="Property for Sale"
-              description="A curated selection of luxury homes and commercial properties across Ghana."
+              description="A curated selection of affordable homes and commercial properties across Ghana."
               href="#property"
             />
             <ServiceCard
@@ -96,7 +96,7 @@ export default function Home() {
               Latest <br /> Listings
             </h2>
             <p className="text-muted-foreground">
-              Discover our most exclusive properties currently available on the market.
+              Discover our most affordable properties currently available on the market.
             </p>
             <button className="text-sm font-bold uppercase tracking-[0.2em] border-b-2 border-primary pb-1 hover:text-primary transition-colors">
               Explore All Properties
